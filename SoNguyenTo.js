@@ -12,7 +12,7 @@ function showPrimeNumber()
                     {
                         let count = 0;      // Đếm số lượng số nguyên tố đã hiển thị
                         let x = 3;          // Số nguyên cần kiểm tra xem có phải là số nguyên tố hay không
-                        let str = "";      // Chuỗi để lưu dãy số nguyên tố
+                        let str = "";       // Chuỗi để lưu dãy số nguyên tố
                         let mod;            // Số dư trong phép chia số nguyên cần kiểm tra cho các số nhỏ hơn từ 2 đến số đó
                         let testMod = true; // Kiểm tra số dư xem có số dư nào bằng 0 hay không
                         while (count < num - 1)
